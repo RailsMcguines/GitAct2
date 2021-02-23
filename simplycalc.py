@@ -7,7 +7,8 @@ def arp(val1,val2,oper):
         res = val1 * val2   
     elif oper == '-':
         res = val1 - val2
-    
+    elif oper == '/':
+        res = val1 / val2
     else:
         res="Error"
     return res
