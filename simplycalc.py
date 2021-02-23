@@ -1,17 +1,17 @@
 def arp(val1,val2,oper):
-    if oper == '+':
-        res = val1 + val2
-        return res
-    if oper == '*':
-        res = val1 * val2
-        return res
-    if oper == '-':
-        res == val1 - val2
-        return res
     if oper == '/':
         res = val1 / val2
-        return res
-
+    if oper == '+':
+        res = val1 + val2   
+    elif oper == '*':
+        res = val1 * val2   
+    elif oper == '-':
+        res = val1 - val2
+    elif oper == '/':
+        res = val1 / val2
+    else:
+        res="Error"
+    return res
 
 print("Ingrese el primer valor")
 val1=input()
