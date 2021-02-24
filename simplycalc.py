@@ -24,9 +24,9 @@ if va:
         val2=int(va2)
         print("Ingrese un operador +, *, -, /")
         oper = input()
-        #print("La suma de estos números es: " + str(val1+val2))
+        
         res = arp(val1,val2,oper)
-        #res = maxi(val1)
+        
         print("La suma de estos números es: " + str(res))
         input()
     else:
