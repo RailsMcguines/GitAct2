@@ -1,3 +1,4 @@
+ #operadores
 def arp(val1,val2,oper):
     if oper == '/':
         res = val1 / val2
